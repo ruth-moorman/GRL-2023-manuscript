@@ -23,6 +23,7 @@ dependencies:
 - opencv                                                  # useful for contour fitting
 - xmitgcm
 - cmaps
+- setuptools
 - pip:
   - git+https://github.com/retostauffer/python-colorspace # hcl scientific colormaps
   - gsw                                                   # gibbs sea-water TEOS10 function
@@ -30,3 +31,4 @@ dependencies:
   - geopy                                                 # useful lat lon to distance approximations
   - git+https://github.com/nsidc/polarstereo-lonlat-convert-py.git # for sea ice field projections (annoying...)
   - seabird                                               # used to parse seabird CTD observations
+  - jupyterlab_latex
